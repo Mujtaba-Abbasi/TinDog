@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@200;300;900&family=Sacramento&family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Montserrat";
+}
+
+body #title {
+  background-color: #ff4c68;
+  font-family: "Ubuntu", "Montserrat", sans-serif;
+  color: #fff;
+}
+
+body #title .container-fluid {
+  padding: 3% 15% 12%;
+}
+
+body #title h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+body #title .navbar {
+  padding-bottom: 4.5rem;
+}
+
+body #title .navbar .navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+body #title .navbar .nav-item {
+  padding: 0 18px;
+}
+
+body #title .navbar .nav-item a {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+body #title .button-download {
+  margin: 5% 3% 5% 0;
+}
+
+body #title .title-img {
+  width: 25%;
+  right: 25%;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  position: absolute;
+}
+
+body #features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+body #features .container {
+  margin: 5rem 0;
+}
+
+body #features .container .row-features {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+body #features .container .row-features p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+body #features .container .row-features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body #features .container .row-features .icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+body #features .container .row-features .icon:hover {
+  color: #ff4c68;
+}
+
+body #testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+body #testimonials h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body #testimonials .test-img {
+  width: 10%;
+  border-radius: 100%;
+  border-radius: 3px solid white;
+  margin: 20px;
+}
+
+body #testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+body #press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+body #press .press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+body #pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+body #pricing .pricing-col {
+  padding: 3% 2%;
+}
+
+body #pricing h2,
+body #pricing h3 {
+  font-weight: 800;
+}
+
+body #cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+body #cta h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+body #cta .button-download {
+  margin: 5% 3% 5% 0;
+}
+
+body #footer {
+  padding: 7% 15%;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+body #footer .socials {
+  margin: 0 0 10px;
+}
+
+body #footer a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+body #footer .insta:hover {
+  color: #e95950;
+}
+
+body #footer .facebook:hover {
+  color: #3b5998;
+}
+
+body #footer .twitter:hover {
+  color: #00acee;
+}
+
+body #footer .github:hover {
+  color: #171515;
+}
+
+body #footer .discord:hover {
+  color: #171515;
+}
+
+body #footer .copy {
+  color: #ff4c68;
+}
+
+@media (max-width: 1020px) {
+  body #title {
+    text-align: center;
+  }
+  body #title .title-img {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    position: static;
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
